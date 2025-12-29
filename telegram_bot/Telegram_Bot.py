@@ -19,7 +19,7 @@ logger = logging.getLogger(__name__)
 async def main() -> NoReturn:
     """Run the bot."""
     # Here we use the `async with` syntax to properly initialize and shutdown resources.
-    async with Bot("7878700752:AAF_GUeoDQK5goz6vLYvqVFZknG0B4MFrCw") as bot:
+    async with Bot("") as bot:
         # get the first pending update_id, this is so we can skip over it in case
         # we get a "Forbidden" exception.
         try:
